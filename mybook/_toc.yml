@@ -3,7 +3,14 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+
+parts:
+  - caption: Tutorials
+    chapters:
+      - file: tutorials/intro_to_lessons
+        title: Introduction to Lessons
+      - file: tutorials/NOAA_Temperature_Data
+        title: NOAA Temperature Data Analysis
+
+
+
