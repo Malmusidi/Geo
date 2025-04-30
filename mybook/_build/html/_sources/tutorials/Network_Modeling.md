@@ -4,7 +4,7 @@
 
 
  هذا الدرس متاح على Google Colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ycgEjVU1ud839N-l8QYKMgMbhY-BeYvJ?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Malmusidi/GeoStation/blob/main/mybook/tutorials/Riyadh_Road_Network.ipynb)
 
 
 نمذجة إمكانية الوصول إلى مداخل محطات المترو في الرياض باستخدام بيانات OpenStreetMap.
