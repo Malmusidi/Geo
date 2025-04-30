@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>GeoStation &#8212; GeoStation</title>
+    <title>نمذجة إمكانية الوصول إلى مداخل محطات المترو &#8212; GeoStation</title>
   
   
   
@@ -57,7 +57,7 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'tutorials/intro_to_lessons';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'tutorials/Network_Modeling';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="بيانات NOAA المناخية" href="NOAA_Temperature_Data.html" />
@@ -173,10 +173,10 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">المواضيع</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Introduction to Lessons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="NOAA_Temperature_Data.html">NOAA Temperature Data Analysis</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">نمذجة إمكانية الوصول إلى مداخل محطات المترو في الرياض باستخدام بيانات OpenStreetMap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="NOAA_Temperature_Data.html">بيانات محطات الطقس في المملكة العربية السعودية من  NOAA API</a></li>
 </ul>
 
     </div>
@@ -248,7 +248,7 @@
       
       
       
-      <li><a href="https://github.com/Malmusidi/GeoStation/issues/new?title=Issue%20on%20page%20%2Ftutorials/intro_to_lessons.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/Malmusidi/GeoStation/issues/new?title=Issue%20on%20page%20%2Ftutorials/Network_Modeling.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -278,7 +278,7 @@
       
       
       
-      <li><a href="../_sources/tutorials/intro_to_lessons.md" target="_blank"
+      <li><a href="../_sources/tutorials/Network_Modeling.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -360,7 +360,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>GeoStation</h1>
+    <h1>نمذجة إمكانية الوصول إلى مداخل محطات المترو</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -375,9 +375,15 @@ document.write(`
                 <article class="bd-article">
                   
   <div dir="rtl">
-<section class="tex2jax_ignore mathjax_ignore" id="geostation">
-<h1>GeoStation<a class="headerlink" href="#geostation" title="Link to this heading">#</a></h1>
-<p>هنا ستجد دروسًا تشرح كيفية استخدام بايثون لتحليل البيانات الجغرافية باستخدام أدوات تفاعلية مثل Google Colab وFolium وواجهات برمجة التطبيقات (APIs).</p>
+<section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>نمذجة إمكانية الوصول إلى مداخل محطات المترو<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<p>هذا الدرس متاح على Google Colab:
+<a class="reference external" href="https://colab.research.google.com/drive/1ycgEjVU1ud839N-l8QYKMgMbhY-BeYvJ?usp=sharing"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<p>نمذجة إمكانية الوصول إلى مداخل محطات المترو في الرياض باستخدام بيانات OpenStreetMap.</p>
+<p>الاهداف:</p>
+<p>استخراج مداخل محطات المترو بمدينة الرياض من خلال بيانات OpenStreetMap.</p>
+<p>بناء شبكة طرق للمشي باستخدام مكتبة OSMnx. لحساب مناطق الخدمة (Isochrones) حول مداخل المترو لمسافة زمنية معينة (٥، ١٠، و١٥ دقائق مشي).</p>
+<p>تحميل شبكة الطرق لمدينة الرياض كملف Shapefile للاستفادة منه في أنظمة المعلومات الجغرافية (GIS).</p>
 </section>
 
     <script type="text/x-thebe-config">

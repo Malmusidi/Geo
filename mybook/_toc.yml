@@ -5,12 +5,12 @@ format: jb-book
 root: intro
 
 parts:
-  - caption: Tutorials
+  - caption: المواضيع
     chapters:
-      - file: tutorials/intro_to_lessons
-        title: Introduction to Lessons
+      - file: tutorials/Network_Modeling
+        title: نمذجة إمكانية الوصول إلى مداخل محطات المترو في الرياض باستخدام بيانات OpenStreetMap
       - file: tutorials/NOAA_Temperature_Data
-        title: NOAA Temperature Data Analysis
+        title:  بيانات محطات الطقس في المملكة العربية السعودية من  NOAA API
 
 
 

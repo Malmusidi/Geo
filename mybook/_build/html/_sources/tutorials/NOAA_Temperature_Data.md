@@ -4,7 +4,7 @@
 
 
 
-📘 هذا الدرس متاح على Google Colab:
+ هذا الدرس متاح على Google Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KD-6rseWuQ4oAGtOcAPFx-5BVKgOpHGo?usp=sharing)
 

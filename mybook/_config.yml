@@ -31,3 +31,4 @@ html:
   numbered: true
   use_issues_button: true
   use_repository_button: true
+  logo: _static/logo.png
