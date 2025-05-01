@@ -8,9 +8,9 @@ parts:
   - caption: المواضيع
     chapters:
       - file: tutorials/Network_Modeling
-        title: نمذجة إمكانية الوصول إلى مداخل محطات المترو في الرياض باستخدام بيانات OpenStreetMap
+        title:  1. نمذجة إمكانية الوصول إلى مداخل محطات المترو في الرياض باستخدام بيانات OpenStreetMap
       - file: tutorials/NOAA_Temperature_Data
-        title:  بيانات محطات الطقس في المملكة العربية السعودية من  NOAA API
+        title:  2. بيانات محطات الطقس في المملكة العربية السعودية من  NOAA API
 
 
 
