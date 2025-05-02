@@ -24,7 +24,7 @@ jobs:
       # 3) Install Jupyter-Book and the ghp-import tool
       - name: Install dependencies
         run: |
-          pip install jupyter-book ghp-import
+          pip install -r mybook/requirements.txt
 
       # 4) Build the book in the mybook folder
       - name: Build book
