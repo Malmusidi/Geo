@@ -9,12 +9,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1) Check out the main branch, but do NOT persist the default token
+      # 1) Checkout the repo and keep the GITHUB_TOKEN so we can push later
       - uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
-      # 2) Set up Python (any 3.x will do)
+      # 2) Set up Python 3.x
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -22,16 +23,18 @@ jobs:
 
       # 3) Install Jupyter-Book and the ghp-import tool
       - name: Install dependencies
-        run: pip install jupyter-book ghp-import
+        run: |
+          pip install jupyter-book ghp-import
 
-      # 4) Build your book in-place under mybook/_build/html
+      # 4) Build the book in the mybook folder
       - name: Build book
         run: |
           jupyter-book clean mybook
           jupyter-book build mybook
 
-      # 5) Publish the built HTML to gh-pages, using the GITHUB_TOKEN
+      # 5) Publish the built HTML to the gh-pages branch
       - name: Publish to gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ghp-import -n -p -f mybook/_build/html
+        run: |
+          ghp-import -n -p -f mybook/_build/html
