@@ -45,7 +45,5 @@ html:
 
   use_repository_button: true
 
-  logo: _static/logo1.png
-
 
 copyright: "2025"
