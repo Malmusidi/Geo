@@ -1,3 +1,21 @@
-jupyter-book
-matplotlib
+# Build & deploy tools
+jupyter-book>=1.4
+ghp-import
+sphinx-sitemap
+
+# Core data‑science libraries your tutorials import
 numpy
+pandas
+requests
+tqdm
+ipython
+ipywidgets
+
+# Geo‑libraries
+geopandas
+shapely
+folium
+osmnx
+networkx
+
+# (Any other libs your notebooks use…)
