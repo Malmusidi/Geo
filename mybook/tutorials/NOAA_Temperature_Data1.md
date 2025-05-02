@@ -6,7 +6,9 @@
 
  هذا الدرس متاح على Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] (https://colab.research.google.com/github/Malmusidi/GeoStation/blob/main/mybook/tutorials/NOAA_Temperature_Data.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Malmusidi/GeoStation/blob/main/mybook/tutorials/NOAA_Temperature_Data.ipynb)
+
+
 
 ---
 
@@ -21,5 +23,13 @@
 - عرض محطات الطقس على خريطة تفاعلية
 - عرض الرسوم البيانية لدرجات الحرارة
 - تحميل بيانات درجات الحرارة السنوية بصيغة CSV
+
+
+
+
+
+
+
+<br><br>
 
 </div>

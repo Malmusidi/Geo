@@ -4,6 +4,9 @@
 title: "GeoStation"
 author: Mohammed Almusidi
 
+exclude_patterns:
+  - "tutorials/NOAA_Temperature_Data.ipynb"
+  - "tutorials/Riyadh_Road_Network.ipynb"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
