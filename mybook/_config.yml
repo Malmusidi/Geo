@@ -29,16 +29,14 @@ repository:
 # Tell Sphinx to load the sitemap extension
 # ——————————————————————
 sphinx:
-  extra_extensions:
-    - sphinx_sitemap
-
-  # Everything under `config:` goes straight into conf.py
   config:
-    # MUST be quoted and exactly your published URL, no trailing slash:
+    extra_extensions:
+      - sphinx_sitemap
     html_baseurl: "https://malmusidi.github.io/GeoStation"
-    sitemap_url_scheme: "{link}"
-    # (Optional) if you want custom URL patterns:
-    # sitemap_url_scheme: "{link}"
+    sitemap_url_scheme: "/{link}"
+    
+
+
 
 
 # Add GitHub buttons to your book
