@@ -1,5 +1,5 @@
 # Build & deploy tools
-jupyter-book>=1.4
+jupyter-book>=1.0.4
 ghp-import
 sphinx-sitemap
 
