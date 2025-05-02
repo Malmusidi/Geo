@@ -28,6 +28,15 @@ repository:
   path_to_book: mybook  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
+# 1) Tell Sphinx to load sphinx_sitemap
+sphinx:
+  extra_extensions:
+    - sphinx_sitemap
+
+# 2) Give it your live site URL (no trailing slash!)
+html_baseurl: https://malmusidi.github.io/GeoStation
+
+
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
