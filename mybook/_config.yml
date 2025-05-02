@@ -1,6 +1,8 @@
 
 title: "GeoStation"
 author: Mohammed Almusidi
+logo: _static/logo1.png
+copyright: "2025"
 
 sphinx:
   extra_extensions:
@@ -9,7 +11,7 @@ sphinx:
   config:
     html_baseurl: "https://malmusidi.github.io/GeoStation/"
     sitemap_url_scheme: "{link}"
-    
+
     
 
 
@@ -46,4 +48,3 @@ html:
   use_repository_button: true
 
 
-copyright: "2025"
