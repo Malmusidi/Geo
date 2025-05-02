@@ -1,0 +1,14 @@
+
+# Ignore Jupyter-Book build outputs
+mybook/_build/
+mybook/.jupyter_cache/
+
+# VS Code settings folder
+.vscode/
+
+# macOS Finder metadata
+.DS_Store
+
+# Python virtual‐envs (if accidentally checked in)
+env/
+venv/
