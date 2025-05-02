@@ -36,10 +36,11 @@ sphinx:
   config:
     # MUST be quoted and exactly your published URL, no trailing slash:
     html_baseurl: "https://malmusidi.github.io/GeoStation"
+    sitemap_url_scheme: "{link}"
     # (Optional) if you want custom URL patterns:
     # sitemap_url_scheme: "{link}"
 
-    
+
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
