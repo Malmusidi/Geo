@@ -21,13 +21,25 @@ repository:
   path_to_book: mybook  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
+# mybook/_config.yml
+
+# … your existing settings above …
+
+# ——————————————————————
+# Tell Sphinx to load the sitemap extension
+# ——————————————————————
 sphinx:
+  extra_extensions:
+    - sphinx_sitemap
+
+  # Everything under `config:` goes straight into conf.py
   config:
-    extra_extensions:
-      - sphinx_sitemap
+    # MUST be quoted and exactly your published URL, no trailing slash:
     html_baseurl: "https://malmusidi.github.io/GeoStation"
+    # (Optional) if you want custom URL patterns:
+    # sitemap_url_scheme: "{link}"
 
-
+    
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
