@@ -2,6 +2,17 @@
 title: "GeoStation"
 author: Mohammed Almusidi
 
+sphinx:
+  extra_extensions:
+    - sphinx_sitemap
+
+  config:
+    html_baseurl: "https://malmusidi.github.io/GeoStation/"
+    sitemap_url_scheme: "{link}"
+    
+    
+
+
 exclude_patterns:
   - "tutorials/NOAA_Temperature_Data.ipynb"
   - "tutorials/Riyadh_Road_Network.ipynb"
@@ -21,20 +32,6 @@ repository:
   path_to_book: mybook  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
-# mybook/_config.yml
-
-# … your existing settings above …
-
-# ——————————————————————
-# Tell Sphinx to load the sitemap extension
-# ——————————————————————
-sphinx:
-  config:
-    extra_extensions:
-      - sphinx_sitemap
-    html_baseurl: "https://malmusidi.github.io/GeoStation"
-    sitemap_url_scheme: "/{link}"
-    
 
 
 
