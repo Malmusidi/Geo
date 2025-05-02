@@ -32,9 +32,12 @@ repository:
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   numbered: true
+
   use_issues_button: true
+
   use_repository_button: true
-  logo: _static/logo.png
+
+  logo: _static/logo1.png
 
 
 copyright: "2025"
