@@ -5,7 +5,6 @@
 
 
  هذا الدرس متاح على Google Colab:
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Malmusidi/GeoStation/blob/main/mybook/tutorials/NOAA_Temperature_Data.ipynb)
 
 
