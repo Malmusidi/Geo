@@ -23,10 +23,16 @@
 </div>
 
 
-```{youtube} Bj3AneSlufI
-:width: 800px
-:height: 450px
-```  
+<div style="text-align:center; margin-bottom:2em;">
+  <iframe
+    width="800"
+    height="450"
+    src="https://www.youtube.com/embed/Bj3AneSlufI"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
 
 
 <br><br>
